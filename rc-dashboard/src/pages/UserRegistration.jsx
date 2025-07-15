@@ -130,9 +130,9 @@ const UserRegistration = ({ onUserRegistered }) => {
               required
               className="w-full px-5 py-3 bg-white/10 border border-white/30 rounded-xl text-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-lg shadow-inner"
             >
-              <option value="">Select your sex</option>
-              <option value="male">Male</option>
-              <option value="female">Female</option>
+              <option value="" style={{ color: 'black' }}>Select your sex</option>
+              <option value="male" style={{ color: 'black' }}>Male</option>
+              <option value="female" style={{ color: 'black' }}>Female</option>
             </select>
           </div>
           {error && (
@@ -157,4 +157,4 @@ const UserRegistration = ({ onUserRegistered }) => {
   );
 };
 
-export default UserRegistration; 
+export default UserRegistration;
